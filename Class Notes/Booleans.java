@@ -15,9 +15,12 @@ public class Booleans{
 
     /* These logical expressions rely on logical operators 
     "==" calculates equality. Things like "2 == 2" evaluate to true. 
+    "==" and other operators like ">=" or "<" are relational. 
     "&&" means "and". Things like "2 == 2 && 3 == 3" evaluate to true.
     "||" means "or". Things like "2 == 2 || 2 == 3" evaluate to true. 
-    "!" means "not". Things like "!(3 == 2)" evaluate to true.  
+    "&&" and "||" are combinational, since they combine other logical expressions.
+    "!" means "not". Things like "!(3 == 2)" evaluate to true. ! is unary. 
+    We also have relational operators like 
     */ 
 
     /*We often use venn diagrams to express the outputs of logical operators. 
