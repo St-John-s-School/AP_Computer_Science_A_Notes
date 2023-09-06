@@ -1,27 +1,13 @@
 public class Casting{
     public static void main(String[] args)
     {
-    /* When wanting to change the type of data we have we must perform an opoeration called casting.
-       
+    /* When wanting to change the type of data we have we must perform an operation called casting.
+       Casting comes in to form explicit and implicit casting.
+
     */
     
-    /* When looking to use a Scanner object we first need to think about what kind of information do we want to store.
-       This will determine what kind of input we can accept.
-       We have the following options:
-       ┌─────────────────────────────┐
-       | Data Type   |  Method       |
-       ┠─────────────┼───────────────┤
-       |   Integer   | nextInt()     |
-       ┠─────────────┼───────────────┤
-       |   Double    | nextDouble()  |
-       ┠─────────────┼───────────────┤
-       |   String    | next()        |
-       ┠─────────────┼───────────────┤
-       |   String    | nextLine()    |
-       └─────────────────────────────┘
-
-       The next() method will only accept a string until a whitespace is found (AKA a space)
-       The nextLine() method will accept everything typed in before return is entered 
+    /* Exlicit casting allows us to control what type of data a number will be.
+       U
     */
 
     // Taking in an integer as input
