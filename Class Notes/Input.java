@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Input{
     public static void main(String[] args)
     {
-    /* When wanting to take in input from the user we need to utilize the Scanner library. 
+    /* When wanting to take in input from the user we need to utilize the Scanner library. ( Seen on line 1 ) 
     This allows us to process input from the user in the terminal but how we process the information determines how/what information can be stored.
 
     The syntax for creating a Scanner object is as follows:
