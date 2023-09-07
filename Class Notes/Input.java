@@ -4,10 +4,13 @@ public class Input{
     public static void main(String[] args)
     {
     /* When wanting to take in input from the user we need to utilize the Scanner library. ( Seen on line 1 ) 
-    This allows us to process input from the user in the terminal but how we process the information determines how/what information can be stored.
+    This allows us to process input from the user in the terminal.
+    How we process the information determines how/what information can be stored.
 
     The syntax for creating a Scanner object is as follows:
     Scanner input = new Scanner(System.in);    
+
+    We can think of Objects as variables. It is totally appropriate to think of "input" being a Scanner variable. 
     */
     
     /* When looking to use a Scanner object we first need to think about what kind of information do we want to store.
@@ -55,8 +58,6 @@ public class Input{
     // Notice the how the next() method did not capture your last name but nextLine() was able to
       
     // You can find a table of all the Scanner methods in the textbook. 
-
-    
     }
   }
   
