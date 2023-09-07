@@ -3,41 +3,62 @@ public class Casting{
     {
     /* When wanting to change the type of data we have we must perform an operation called casting.
        Casting comes in to form explicit and implicit casting.
-
     */
     
     /* Exlicit casting allows us to control what type of data a number will be.
-       U
+       Using parathesis we define what kind of data we would like to cast to.
     */
 
-    // Taking in an integer as input
+    // Cast a double to an integer
     // Example:
-    // Scanner input = new Scanner(System.in);
-    // System.out.print("Enter your favorite whole number: ");
-    // int number = input.nextInt();
-    // System.out.println("Your favorite whole number is " + number + "!");
+    // int number = (int) 3.8;
+    // System.out.println("The casted number is " + number);
+        
+    // Take note that casting does not round but instead truncates
 
-    // Taking in a double as input
+        
+    // Cast an integer to a double
     // Example:
-    // Scanner input = new Scanner(System.in);
-    // System.out.print("Enter your favorite decimal number: ");
-    // double number = input.nextDouble();
-    // System.out.println("Your favorite decimal number is " + number + "!");
+    // double number = (double) 5;
+    // System.out.println("The casted number is " + number);
+        
+    // This only adds on a .0 to the integer number
 
-    // Taking in a string as input
+
+    // The order of explicit casting is performed before any algebraic operations are performed
     // Example:
-    // Scanner input = new Scanner(System.in);
-    // System.out.print("Enter your first and last name: ");
-    // String name = input.next();
-    // System.out.println("Your name is " + name + "!");
-    // System.out.print("Enter your first and last name: ");
-    // name = input.nextLine();
-    // System.out.println("Your name is " + name + "!");
-    // Notice the how the next() method did not capture your last name but nextLine() was able to
-      
-    // You can find a table of all the Scanner methods in the textbook. 
+    // int number = (int)(3.6 + 2.5);
+    // System.out.println("The casted number is " + number);  
+    // number = (int)3.6 + (int)2.5;
+    // System.out.println("The casted number is " + number);
 
+    // Note the order of operations 
     
+
+    /* Implicit casting is not something you directly control as it is performed by the Java compiler.
+        This is done when there is a type mismatch in an equation and it is possible to cast one of the operands
+        without any loss of information.
+    */
+
+    // Cast an integer to a double
+    // Example:
+    // double number = 5;
+    // System.out.println("The casted number is " + number);
+        
+    // Note this is the same as the explicit example because the compiler can simply add a .0 without losing information
+
+        
+    // Cast an integer to a double
+    // Example:
+    // double number = 5/2;
+    // System.out.println("The casted number is " + number);
+    // number = 5.0/2;
+    // System.out.println("The casted number is " + number);
+    // number = 5.0/2.0;
+    // System.out.println("The casted number is " + number);
+
+    // note when the inplicit casting happens and that as long as one of the two operands is a double the other 
+    // will be casted to perform a more accurate calculation
     }
   }
   
