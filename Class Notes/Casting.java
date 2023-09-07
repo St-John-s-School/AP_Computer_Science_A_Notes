@@ -5,7 +5,7 @@ public class Casting{
        Casting comes in two forms: explicit and implicit casting.
     */
     
-    /* Exlicit casting allows us to control what type of data a number will be.
+    /* Explicit casting allows us to control what type of data a number will be.
        Using paratheses we define what kind of data we would like to cast to.
     */
 
