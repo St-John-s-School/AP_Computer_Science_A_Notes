@@ -21,7 +21,7 @@ public class Casting{
     // double number = (double) 5;
     // System.out.println("The casted number is " + number);
         
-    // This only adds on a .0 to the integer number
+    // Besides turning an integer value (5) into a double, this only adds on a .0 to the integer number
 
     // The order of explicit casting is performed before any algebraic operations are performed
     // Example:
@@ -29,8 +29,6 @@ public class Casting{
     // System.out.println("The casted number is " + number);  
     // number = (int)3.6 + (int)2.5;
     // System.out.println("The casted number is " + number);
-
-    // Note the order of operations 
 
     /*  Implicit casting is not something you directly control as it is performed by the Java compiler.
         This is done when there is a type mismatch in an equation and it is possible to cast one of the operands
