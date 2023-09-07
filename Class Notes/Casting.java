@@ -2,11 +2,11 @@ public class Casting{
     public static void main(String[] args)
     {
     /* When wanting to change the type of data we have we must perform an operation called casting.
-       Casting comes in to form explicit and implicit casting.
+       Casting comes in two forms: explicit and implicit casting.
     */
     
     /* Exlicit casting allows us to control what type of data a number will be.
-       Using parathesis we define what kind of data we would like to cast to.
+       Using paratheses we define what kind of data we would like to cast to.
     */
 
     // Cast a double to an integer
@@ -15,7 +15,6 @@ public class Casting{
     // System.out.println("The casted number is " + number);
         
     // Take note that casting does not round but instead truncates
-
         
     // Cast an integer to a double
     // Example:
@@ -23,7 +22,6 @@ public class Casting{
     // System.out.println("The casted number is " + number);
         
     // This only adds on a .0 to the integer number
-
 
     // The order of explicit casting is performed before any algebraic operations are performed
     // Example:
@@ -33,9 +31,8 @@ public class Casting{
     // System.out.println("The casted number is " + number);
 
     // Note the order of operations 
-    
 
-    /* Implicit casting is not something you directly control as it is performed by the Java compiler.
+    /*  Implicit casting is not something you directly control as it is performed by the Java compiler.
         This is done when there is a type mismatch in an equation and it is possible to cast one of the operands
         without any loss of information.
     */
@@ -46,7 +43,6 @@ public class Casting{
     // System.out.println("The casted number is " + number);
         
     // Note this is the same as the explicit example because the compiler can simply add a .0 without losing information
-
         
     // Cast an integer to a double
     // Example:
@@ -57,7 +53,7 @@ public class Casting{
     // number = 5.0/2.0;
     // System.out.println("The casted number is " + number);
 
-    // note when the inplicit casting happens and that as long as one of the two operands is a double the other 
+    // Note when the inplicit casting happens and that as long as one of the two operands is a double the other 
     // will be casted to perform a more accurate calculation
     }
   }
