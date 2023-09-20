@@ -151,7 +151,7 @@ public class Methods{
     String s = "Gao";
     String t = "Bounds";
     System.out.println(Math.max(s.length(), t.length()));
-    /*
+    */
   }
 
   public static void printHello()
