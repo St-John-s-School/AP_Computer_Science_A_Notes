@@ -89,7 +89,7 @@ public class Methods{
     int result = add(first, second);
     System.out.println(sum);
     System.out.println(result);    
-    //*/
+    */
     
         
     /*
@@ -109,7 +109,7 @@ public class Methods{
     /*
     int result = add(-2, 5);
     System.out.println(result);
-    //*
+    */
 
     /* 
     Overloading Methods
@@ -130,7 +130,7 @@ public class Methods{
 
     double distance = distance(3.2, 3.1, 4.9, 4.7);
     System.out.println("The double distance is: " + distance);
-    //*
+    /*
 
     /*
     Composing Methods
@@ -151,7 +151,7 @@ public class Methods{
     String s = "Gao";
     String t = "Bounds";
     System.out.println(Math.max(s.length(), t.length()));
-    //*
+    /*
   }
 
   public static void printHello()
