@@ -20,25 +20,29 @@ public class Methods{
     Method Headers
 
     We declare methods in a very particular way: 
-    public static void main <name>(parameters) {
+      1      2   3       4
+    public void foo (parameters) {
     <body>;
     }
 
-    Generally, public means that this method is useable in all parts of our program. 
+    1) Is a modifier that determines where our method can be used in our program and in this case we made it public which allows for our method to be useable in all parts of our program.     
     
-    static means that this method doesn't belong to a particular Object. Some examples of methods that aren't static are .length() and .charAt(). 
-    These are methods that only "make sense" if we do something like s.length() or s.charAt(); they "belong" to a particular piece of data like the String s. 
+    2) Determines if our method is data returning or not. Void indicates that the method does not output a particular value. It might still do something, like print an output to the user.
+        An example of a void method is println(), while an example of a method that returns (outputs to the computer) a value, would be Math.max() or Math.round()
+        In the case of a data returning method, you would indicate the type of data you would like to return
+        For example:
+        public String concatenate ()
+        {    <body>    }
+
+        The String in the method header indicates the method will return a String value, a method can only return one thing of the determined type.
+
+    3) The name of the method and all have names. We don't capitalize the first character of any method name, and we try to make our method names informative and typically are action-orientated.
+
+    4) These are our parameters which are the inputs into our method. This is data that our method needs to work. 
+        For example, "Hello, World!" is the parameter in the method:
+        System.out.println("Hello, World!"); 
     
-    void indicates that the method does not output a particular value. It might still do something, like print an output to the user.
-    An example of a void method is println(), while an example of a method that returns (outputs to the computer) a value, would be Math.max() or Math.round()
-
-    Methods all have names. We don't capitalize the first character of any method name, and we try to make our method names informative. 
-
-    Finally, methods have parameters. Parameters are the inputs into our method. This is data that our method needs to work. 
-    For example, "Hello, World!" is the parameter in the method:
-    System.out.println("Hello, World!"); 
-
-    Some methods don't have any parameters, and some methods have multiple. 
+        Some methods don't have any parameters, and some methods have multiple. 
     */
 
     /*
@@ -65,7 +69,7 @@ public class Methods{
     You won't be able to access, or change them, outside of that method. 
 
     In the code below, a, b, and sum only exist inside the scope ("world") of add(5,4).
-    Once add(5,4) finishes executing, those variable cease to exist. 
+    Once add(5,4) finishes executing, those variables cease to exist. 
 
     If we use variables as parameters for a particular method call, copies of those variables are made inside the method. 
 
@@ -149,7 +153,7 @@ public class Methods{
   public static void printHello()
   {
     System.out.println("Hello!");
-    System.out.prinln("Methods are really cool!");
+    System.out.println("Methods are really cool!");
     System.out.println("Goodbye!");
   }
 
