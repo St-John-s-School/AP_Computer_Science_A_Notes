@@ -101,6 +101,9 @@ public class Methods{
     The type of variable that a method returns is defined in the method header
 
     public static int add(int a, int b)
+
+    When you are ready to return a value you must use the keyword return followed by the value you wish to return.
+    This will immediately stop your method at this point and return the value back to where the method was originally called.
     */
 
     /*
