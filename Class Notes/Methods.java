@@ -73,17 +73,20 @@ public class Methods{
     The only way we can retrieve values from a method is by returning (outputting) them. 
     For an example of this, refer to the doubleNumber() example in the textbook. 
     */
+
     
-    // int result = add(5, 4);
-    // System.out.println(sum);
-    // System.out.println(result);
+    /*
+    int result = add(5, 4);
+    System.out.println(sum);
+    System.out.println(result);
 
-    // int first = 7;
-    // int second = 6;
-    // int result = add(first, second);
-    // System.out.println(sum);
-    // System.out.println(result);
-
+    int first = 7;
+    int second = 6;
+    int result = add(first, second);
+    System.out.println(sum);
+    System.out.println(result);    
+    //*/
+    
     /* 
     Overloading Methods
 
@@ -97,11 +100,14 @@ public class Methods{
     System.out.println() is an example of an overloaded method. 
     */
 
-    // String s = "Hello";
-    // System.out.println(s.charAt(2.0));
+    /*
+    String s = "Hello";
+    System.out.println(s.charAt(2.0));
     
-    // double distance = distance(3, 3, 4, 4);
+    double distance = distance(3, 3, 4, 4);
+    //*
 
+    
     /*
     Returning Values 
 
@@ -113,8 +119,10 @@ public class Methods{
     public static int add(int a, int b)
     */
 
-    // int result = add(-2, 5);
-    // System.out.println(result);
+    /*
+    int result = add(-2, 5);
+    System.out.println(result);
+    //*
 
     /*
     Composing Methods
@@ -131,9 +139,11 @@ public class Methods{
     Under this framework, we can see it's really important to understand that methods are flexible and really the building blocks of programs. 
     */
 
-    // String s = "Gao";
-    // String t = "Bounds";
-    // System.out.println(Math.max(s.length(), t.length()));
+    /*
+    String s = "Gao";
+    String t = "Bounds";
+    System.out.println(Math.max(s.length(), t.length()));
+    //*
   }
 
   public static void printHello()
