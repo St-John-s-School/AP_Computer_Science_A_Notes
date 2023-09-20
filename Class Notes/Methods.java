@@ -91,27 +91,7 @@ public class Methods{
     System.out.println(result);    
     //*/
     
-    /* 
-    Overloading Methods
-
-    Methods are very picky about their parameters. If a method only accepts integers as an input, and we give it a double, we'll have issues.
-
-    However, we might want to allow for more optionality for the inputs of our methods. 
-    For a method that calculates distance, we  might want both integers and doubles to be inputs
-    So, we write two versions of distance(), one with integers as parameters and one with doubles
-    Java can figure out which one to run when you call distance(). 
-
-    System.out.println() is an example of an overloaded method. 
-    */
-
-    /*
-    String s = "Hello";
-    System.out.println(s.charAt(2.0));
-    
-    double distance = distance(3, 3, 4, 4);
-    //*
-
-    
+        
     /*
     Returning Values 
 
@@ -126,6 +106,27 @@ public class Methods{
     /*
     int result = add(-2, 5);
     System.out.println(result);
+    //*
+
+    /* 
+    Overloading Methods
+
+    Methods are very picky about their parameters. If a method only accepts integers as an input, and we give it a double, we'll have issues.
+
+    However, we might want to allow for more optionality for the inputs of our methods. 
+    For a method that calculates distance, we  might want both integers and doubles to be inputs
+    So, we write two versions of distance(), one with integers as parameters and one with doubles
+    Java can figure out which one to run when you call distance(). 
+
+    System.out.println() is an example of an overloaded method. 
+    */
+
+    /*    
+    double distance = distance(3, 3, 4, 4);
+    System.out.println("The int distance is: " + distance);`
+
+    double distance = distance(3.2, 3.1, 4.9, 4.7);
+    System.out.println("The double distance is: " + distance);
     //*
 
     /*
