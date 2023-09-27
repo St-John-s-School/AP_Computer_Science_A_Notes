@@ -13,10 +13,10 @@ public class String_Methods
 
     A common analogy for APIs are menus at a restaurant. 
     Menus tell you what foods are available, the names of those foods,
-    and what ingredients go into that food. 
+    and what ingredients go into that food. However, they don't tell you how to cook it.
 
     APIs tell a programmer what methods are available, the names of those methods,
-    and what happens in that method. 
+    and what happens in that method, but does not actually show you the implementation.
     
     */
 
@@ -46,18 +46,20 @@ public class String_Methods
     */
 
     /*
-    String s = "Hello";
-    String t = s.toUpperCase();
-    System.out.println(s);
-    System.out.println(t);
+    String str = "Hello";
+    String capStr = s.toUpperCase();
+    String lowStr = str.toLowerCase();
+    System.out.println(str);
+    System.out.println(capStr);
+    System.out.println(lowStr);
     */
 
     /*
-    String a = "Hello";
+    String str = "Hello";
     String test1 = "l";
     String test2 = "z";
-    int index1 = a.indexOf(test1);
-    int index2 = a.indexOf(test2);
+    int index1 = str.indexOf(test1);
+    int index2 = str.indexOf(test2);
     System.out.println("The index of " + test1 + " is: " + index1); 
     System.out.println("The index of " + test2 + " is: " + index2); 
     */
