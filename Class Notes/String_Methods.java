@@ -107,6 +107,19 @@ public class String_Methods
     System.out.println(alpha.compareTo(beta));
     System.out.println(beta.compareTo(alpha));
     */
+
+    /* 
+    Learning how to use methods
+
+    Above are examples of a lot of new String methods. 
+    Generally, the best way to learn how new methods work 
+    is just to play around with them.
+
+    We have tools like Scanner that allow us to call methods
+    with a variety of inputs. Even though we know how methods
+    should work because we have APIs, sometimes just calling 
+    methods and seeing what happens is the best way to learn. 
+    */
     
   }
   
