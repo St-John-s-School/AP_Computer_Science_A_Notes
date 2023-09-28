@@ -16,7 +16,7 @@ public class String_Methods
     and what ingredients go into that food. However, they don't tell you how to cook it.
 
     APIs tell a programmer what methods are available, the names of those methods,
-    and what happens in that method, but does not actually show you the implementation.
+    and what happens in that method, but do not actually show you the implementation.
     
     */
 
@@ -43,6 +43,8 @@ public class String_Methods
     are static. That is, they all "belong" to a String and follow the 
     stringname.methodname() formatting. 
 
+    These methods will give us the capability to write programs that were
+    otherwise tedious or impossible. 
     */
 
     /*
