@@ -104,8 +104,8 @@ public class String_Methods
     String alpha = "Architecture";
     String beta = "Brazil";
 
-    System.out.println(alpha.compare(beta));
-    System.out.println(beta.compare(alpha));
+    System.out.println(alpha.compareTo(beta));
+    System.out.println(beta.compareTo(alpha));
     */
     
   }
