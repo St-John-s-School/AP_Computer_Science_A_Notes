@@ -82,8 +82,10 @@ public class String_Methods
     */
 
     /*
-    String first = "Gwendolyn";
-    String second = "Gwendolyn";
+    String mr = "Mr. ";
+    String bounds = "Bounds";
+    String first = mr + bounds;
+    String second = "Mr. Bounds";
 
     if (first == second)
     {
@@ -104,7 +106,7 @@ public class String_Methods
 
     /*
     String alpha = "Architecture";
-    String beta = "Brazil";
+    String beta = "brazil";
 
     System.out.println(alpha.compareTo(beta));
     System.out.println(beta.compareTo(alpha));
