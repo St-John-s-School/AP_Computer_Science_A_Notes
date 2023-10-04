@@ -53,7 +53,8 @@ public class Objects
     Objects contain relevant data. This data is in the form of variables.
     Another term for Objects are instances, so we refer these variables
     as instance variables. 
-  
+
+    We can use instance variables in the same way that we use other variables.
     */
 
     /*
