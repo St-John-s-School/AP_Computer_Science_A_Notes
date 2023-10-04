@@ -50,30 +50,53 @@ public class Objects
     /*
     Data (Instance Variables)
     
+    Objects contain relevant data. This data is in the form of variables.
+    Another term for Objects are instances, so we refer these variables
+    as instance variables. 
+  
     */
 
     /*
     Behavior (Instance Methods) 
-    
+
+    Objects also have particular behaviors. We call these instance methods.
+    These are methods that "belong" to objects.
+
+    We call instance methods using the syntax:
+    object_name.method_name().
+
+    In a sense, we are saying:
+    "Hey, object_name, go ahead and do method_name()". 
     */
 
     /*
     Making an Object (Constructor)
+
+    We mentioned that we aren't going to define our own Objects for a while, 
+    but we can still "make" them in our programs just like how we 
+    made new variables. 
+
+    To "construct" an object, we use the following syntax:
+    Object_type name = new Object_type(parameters);
+
+    For example, we've used syntax like:
+    Scanner in = new Scanner(System.in);
+
+    In this case, Scanner is the type of our Object (A Scanner object)
+    and "in" is the name of this object.
+    System.in is a parameter (it's not relevant why it's a parameter)
     
     */
 
     /*
     Implicit Parameters 
-
+    
+    
     */
 
     /*
     A BankAccount Object
     
-    */
-
-    /*
-    A Dog Object
     
     */
   }
