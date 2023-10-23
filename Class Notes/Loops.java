@@ -50,6 +50,23 @@ public class Loops
     */
 
     /*
+    Scanner input = new Scanner(System.in);
+    
+    while (true) {
+    System.out.println("Enter a number divisible by 10");
+    int test = input.nextInt();
+    if (test % 10 == 0) {
+      System.out.println("Thanks");
+      break;
+      }
+    else {
+      System.out.println("Try again");
+      }
+    }
+  
+    */
+
+    /*
     How might we have used a while loop for the Tic-Tac-Toe lab?
     */
   }
