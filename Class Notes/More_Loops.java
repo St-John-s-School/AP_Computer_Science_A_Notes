@@ -30,15 +30,19 @@ public class More_Loops {
     */
 
     /*
-    for (int i = 0; i < 5; i++);
+    for (int i = 0; i < 5; i++) 
+    {
       System.out.println(i);
-    */
+    }
+    //*/
 
     /* 
     String s = "I love loops!";
-    for (int i = 0; i < s.length(); i++);
+    for (int i = 0; i < s.length(); i++)
+    {
       System.out.println(s.charAt(i));
-    */
+    }
+    //*/
 
     /*
     String t = "I love loops!";
@@ -47,7 +51,7 @@ public class More_Loops {
       System.out.println(t.charAt(i));
       i++;
     }
-    */
+    //*/
 
     /*
     We notice that for loops that are going to iterate a fixed number of times, for loops are easier to write.
@@ -68,13 +72,11 @@ public class More_Loops {
       number = in.nextInt();
     }
     System.out.println("You did it!");
-    */
+    //*/
 
     /* 
     But how would we write it with a for loop? It's much harder, since we don't know how many times this loop will run.
-    */
-
-    /*
+    
     Let's do a little more practice:
     */
 
@@ -85,22 +87,28 @@ public class More_Loops {
       System.out.println(u.charAt(u.length() - 1 - u));
     }
   
-    */
-
-    /*
-    String u = "I love loops";
-    for (int i = 0; i < u.length(); i++) {
-      System.out.println(u.charAt(i));
-      System.out.println(u.charAt(u.length() - 1 - u));
-    }
-    */
+    //*/    
 
     /*
     double k = 64;
-    for (int i = 1; i < 6; i++) {
+    for (int i = 1; i < 6; i++) 
+    {
       System.out.println(Math.pow(k, 1.0 / i));
     }
-    */
+    //*/
+
+    /*
+    int count = 0;
+    for(int i = 0; i < 10; i++)
+    {
+      for(int j = 0; j < 10; j++)
+      {
+        count++;
+      }
+    }
+
+    System.out.println(count);
+    //*/
 
     /*
     String v = "I love loops!";
@@ -108,6 +116,6 @@ public class More_Loops {
       v = v.substring(0, i + 1);
       System.out.println(v.charAt(v.length() - 1));
     }
-    */
+    //*/
   }
 }
