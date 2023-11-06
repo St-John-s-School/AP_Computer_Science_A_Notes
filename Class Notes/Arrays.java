@@ -26,6 +26,9 @@ public class Arrays {
 
     A String is an array of characters.
     Re-phrased, a String is an array whose elements are character data types.
+
+    Arrays are going to allow us to store and access data (variables, values) 
+    in an efficient manner.
     */
 
     /*
