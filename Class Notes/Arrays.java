@@ -76,11 +76,11 @@ public class Arrays {
     
     // Declare ages_carrier to have length equal to number of students in carrier: 
     int[] ages_carrier = new int[15];
-    for (int i = 0; i < ages_carrier.length(); i++) {
+    for (int i = 0; i < ages_carrier.length; i++) {
       ages_carrier[i] = in.nextInt();
     }
 
-    for (int i = 0; i < ages_carrier.length(); i++) {
+    for (int i = 0; i < ages_carrier.length; i++) {
       System.out.println(ages_carrier[i]);
     }
     //*/
@@ -100,6 +100,7 @@ public class Arrays {
     int[] list = new int[5];
     for (int i = 0; i < list.length; i++) {
       list[i] = 2*i + 1;
+      System.out.println(list[i]);
     }
     //*/
 
