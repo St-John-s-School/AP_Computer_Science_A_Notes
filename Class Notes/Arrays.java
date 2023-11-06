@@ -44,7 +44,7 @@ public class Arrays {
     int[] ages = new int[16];
     double[] GPA = new double[175];
     String[] birthdays = new String[750];
-    */
+    //*/
 
     /*
     Notice that we haven't initialized any of the elements in our array. 
@@ -64,7 +64,7 @@ public class Arrays {
 
     birthdays[531] = "03/09/2008";
     System.out.println(birthdays[531]);
-    */
+    //*/
 
     /*
     The ability to easily access any element of an array let's us
@@ -83,7 +83,7 @@ public class Arrays {
     for (int i = 0; i < ages_carrier.length(); i++) {
       System.out.println(ages_carrier[i]);
     }
-    */
+    //*/
 
     /*
     As seen above, <array_name>.length gives us the number of elements
@@ -101,7 +101,7 @@ public class Arrays {
     for (int i = 0; i < list.length; i++) {
       list[i] = 2*i + 1;
     }
-    */
+    //*/
 
     /*
     An important idea for arrays is that every element of the array
@@ -119,7 +119,7 @@ public class Arrays {
     /*
     String[] names = {"John", "Paul", "George", "Ringo"};
     int[] carrier_sizes = {13, 16, 16};
-    */
+    //*/
 
     /*
     Notice that this is the second time in Java we've constructed an Object
@@ -133,13 +133,13 @@ public class Arrays {
     /*
     Final Practice Problem:
     What does the following code segment do?
-    */
+    //*/
     
     /*
     String[] teachers = {"Gao", "Bounds", "Posa"};
     for (int i = 0; i < teachers.length; i++) {
       System.out.println(teachers[i].charAt(teachers[i].length() - 1));
     }
-    */
+    //*/
   }
 }
