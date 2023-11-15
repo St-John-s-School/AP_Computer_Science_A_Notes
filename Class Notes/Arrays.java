@@ -34,7 +34,7 @@ public class Arrays {
     /*
     Constructing arrays:
     We follow similar formatting to constructing an object.
-    <element_type>[] <array_name> = new <element_type>[][<length>];
+    <element_type>[] <array_name> = new <element_type>[<length>];
 
     Here, length isn't zero-indexed. It represents the number of elements in the array.
     The "[]" on the left side of the expression represents "array".
