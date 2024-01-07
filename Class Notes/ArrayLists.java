@@ -127,6 +127,8 @@ public class ArrayLists
     compared to the for loop where we need to increment and use the .get() method on the variable i to find the right String.
 
     We generally use the for-each loop whenever we want to do exactly one thing to each element of a list, in order.
+    IMPORTANT NOTICE: you cannot use a for-each loop if you are modifying the ArrayList inside the loop.
+    Notice in the above example we're just adding to a completely unrelated variable. 
     The general structure of the for-each loop is given below: 
 
     for (<type> <name>: <structure>) {
@@ -185,22 +187,9 @@ public class ArrayLists
 
     1) When might we want to use an ArrayList over an array? How about vice versa?
 
-    2) Write code to declare an ArrayList storing the first 10 positive integers. Use a loop for this. 
+    2) Write code to declare an ArrayList storing the first 10 positive integers. Use a loop for this.
 
-    3) Why won't this compile?
-
-    ArrayList<String> words = new ArrayList<>();
-    words.add("Bounds");
-    words.add("Gao");
-    words.add("Posa");
-    for (String s: words) {
-      System.out.println(s);
-      if (s.equals("hello")) {
-       words.add("goodbye");
-      }
-    }
-
-    4) 
+    3) 
     public static void mystery2(ArrayList<Integer> list) {
       for (int i = list.size() - 1; i >= 0; i--) {
         if (i % 2 == 0) {
