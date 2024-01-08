@@ -89,6 +89,16 @@ public class ArrayLists
     */
 
     /*
+    Now let's say that Mr. Gao has been found guilty of tax evasion and we want to replace him with Mr. Sakach.
+    We can use the set(index, Element) method to do this.
+    */
+
+    /*
+    teachers.set(2, "Sakach");
+    System.out.println("My favorite teachers: " + teachers);
+    */
+
+    /*
     Unlike Arrays, ArrayLists don't really have a fast way to add a bunch of elements at once that anyone uses. 
     We are generally content calling .add() over and over.
     */
