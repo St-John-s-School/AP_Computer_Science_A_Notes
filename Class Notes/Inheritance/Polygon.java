@@ -1,9 +1,16 @@
 import java.awt.*;
 import java.util.Scanner;
 
+
+/*
+ * This is the parent class that are other shapes will inherit form.
+ * 
+ * This allows us to share properites and functionality while adding on
+ * new information that only applies to an inherited class.
+ */
+
 public class Polygon
 {
-// Make sure to point out that private variables/methods can’t be accessed outside of Polygon even if the class inherits from it.
     private int sides;
     private Point[] vertices;
     private double[] sideLengths;
@@ -43,14 +50,22 @@ public class Polygon
         }
     }
 
+    
     public double perimeter()
     {
-        // Implemented by students
+        double output = 0.0;
+        for(int i = 0; i < sideLengths.length; i++)
+        {
+            output += sideLengths[i];
+        }
+        return output;
     }
 
+    // Since we don't know what kind of shape the polygon is we don't have a 
+    // good way at calculating the area of it.
     public double area()
     {
-       // Implemented by students
+       return 0.0;
     }
 
     private double distance(int x1, int y1, int x2, int y2)
@@ -58,11 +73,19 @@ public class Polygon
         return Math.sqrt( (x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1) );
     }
 
-    public void print()
+    // The @Override tells the Java compiler that the following
+    // method will be overriding a method that is in a parent class.
+    // The toString() is overriden from the Object class and can be used
+    // directly in a print to print the String it returns.
+    @Override
+    public String toString()
     {
-        System.out.println("I am a polygon");
-        System.out.println("My area is: " + area());
-        System.out.println("My perimeter is: " + perimeter());
+        String output = "";
+        output += "I am a polygon\n";
+        output += "My area is: " + area() + "\n";
+        output += "My perimeter is: " + perimeter() + "\n";
+
+        return output;
     }
 
     public int getSides() {
