@@ -7,9 +7,12 @@ import java.util.Scanner;
  * 
  * This allows us to share properites and functionality while adding on
  * new information that only applies to an inherited class.
+ * 
+ * Notice that Polygon is abstract. This means that it will have abstract methods that have not been implemented.
+ * These methods have no bodies and end with a ;. Subclasses will implement abstract methods by overriding them. 
  */
 
-public class Polygon
+public abstract class Polygon
 {
     private int sides;
     private Point[] vertices;
@@ -63,10 +66,9 @@ public class Polygon
 
     // Since we don't know what kind of shape the polygon is we don't have a 
     // good way at calculating the area of it.
-    public double area()
-    {
-       return 0.0;
-    }
+    // Also, it's abstract. Notice the syntax (; and no {}) involved. 
+    // This method has no body and instead will be implemented in subclasses. 
+    public abstract double area();
 
     private double distance(int x1, int y1, int x2, int y2)
     {
