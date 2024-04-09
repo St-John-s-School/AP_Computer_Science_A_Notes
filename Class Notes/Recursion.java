@@ -49,8 +49,10 @@ public class Recursion {
     public static int divisionRec(int dividend, int divisor)
     {
         if(dividend < divisor)
+            return 0;
+        else if(dividend == divisor)
             return 1;
-        return divisionRec(dividend - divisor, divisor )+ 1;
+        return divisionRec(dividend - divisor, divisor ) + 1;
     }
     // Both division implementations approach the problem in the same way 
     // which is to count the number of times we can subtract the divisor from the dividend
