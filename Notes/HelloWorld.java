@@ -51,5 +51,6 @@ Algorithm:
 3) Write a concise message detailing what you've done 
 4) Press the check mark
 5) Press Sync changes
+6) "Ok, don't show again"
 
 */
