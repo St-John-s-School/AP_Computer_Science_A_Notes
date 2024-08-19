@@ -67,11 +67,10 @@ to a repository.
 Algorithm:
 
 0) Go to the "Source Control" tab 
-1) Press "Commit"
-2) Press Always
-3) Write a concise message detailing what you've done 
-4) Press the check mark
-5) Press Sync changes
-6) "Ok, don't show again"
+1) Write a concise message detailing what you've done 
+2) Press "Commit"
+3) Press Always
+4) Press Sync changes
+5) "Ok, don't show again"
 
 */
