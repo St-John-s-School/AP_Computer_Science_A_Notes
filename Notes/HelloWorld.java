@@ -47,8 +47,9 @@ Algorithm:
 
 0) Go to the "Source Control" tab 
 1) Press "Commit"
-2) Always
+2) Press Always
 3) Write a concise message detailing what you've done 
-4) 
+4) Press the check mark
+5) Press Sync changes
 
 */
