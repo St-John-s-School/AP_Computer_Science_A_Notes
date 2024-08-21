@@ -54,7 +54,7 @@ We're going to write our first program together.
 public class HelloWorld {
     public static void main(String[] args)
     {
-      
+      System.out.println("Hello, World!");
     }
   }
 
