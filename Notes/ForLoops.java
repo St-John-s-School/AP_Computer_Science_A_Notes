@@ -22,7 +22,7 @@ public class ForLoops {
     i can represent indices in a String, a number in some operation, but importantly
     it allows us to keep our place in the loop. 
 
-    NOTE: i updates after the body of the loop. 
+    <body> is the code that the loop will repeatedly run. After the body is over, <update> will happen
     */
 
     // You can uncomment these or copy and paste these to a new file to see what happens
