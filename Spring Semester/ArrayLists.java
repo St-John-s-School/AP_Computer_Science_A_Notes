@@ -170,17 +170,19 @@ public class ArrayLists
     2) How might you redo the previous problem, but so that the ArrayList is generated "backwards".
        As in, it's going to be [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]?
 
-    3) 
-    public static void mystery2(ArrayList<Integer> list) {
-      for (int i = list.size() - 1; i >= 0; i--) {
+    3) Determine what the following code will do:
+    
+    public static void mystery(ArrayList<Integer> list) {
+      ArrayList<Integer> list2 = new ArrayList<>();
+      for (int i = 0; i < list.size(); i++) {
         if (i % 2 == 0) {
-           list.add(list.get(i));
+           list2.add(list.get(i));
          } 
         else {
-         list.add(0, list.get(i));
+         list2.add(0, list.get(i));
         }
        }
-       System.out.println(list);
+       System.out.println(list2);
       }
     */
   }
