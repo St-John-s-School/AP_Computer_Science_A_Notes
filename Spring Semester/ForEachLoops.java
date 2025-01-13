@@ -11,12 +11,25 @@ public class ForEachLoops
     */
 
     /*
+    ArrayList<String> list = new ArrayList<>();
+    list.add("Frank");
+    list.add("Dennis");
+    list.add("Dee");
+    list.add("Charlie");
+    list.add("Mac");
+
     int sum = 0;
     for (int i = 0; i < list.size(); i++) {
      String s = list.get(i);
      sum += s.length();
      // Alternatively, sum += list.get(i).length();
     }
+
+
+
+
+
+
     System.out.println("Total of lengths = " + sum);
     */
 
