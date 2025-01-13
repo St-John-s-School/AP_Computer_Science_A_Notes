@@ -15,6 +15,7 @@ public class ForEachLoops
     for (int i = 0; i < list.size(); i++) {
      String s = list.get(i);
      sum += s.length();
+     // Alternatively, sum += list.get(i).length();
     }
     System.out.println("Total of lengths = " + sum);
     */
@@ -41,8 +42,11 @@ public class ForEachLoops
     compared to the for loop where we need to increment and use the .get() method
     on the variable i to find the right String.
 
-    We generally use the for-each loop whenever we want to do exactly one thing to each element of a list, in order.
-    IMPORTANT NOTICE: you cannot use a for-each loop if you are modifying the ArrayList inside the loop.
+    We generally use the for-each loop
+    whenever we want to do exactly one thing to each element of a list, in order.
+    IMPORTANT NOTICE: you cannot use a for-each loop if you are modifying
+    the ArrayList inside the loop. You can't use the for-each loop 
+    if you want to re-order, remove, skip, or add elements.
     Notice in the above example we're just adding to a completely unrelated variable. 
     The general structure of the for-each loop is given below: 
 
@@ -61,8 +65,10 @@ public class ForEachLoops
     b) Using a for loop, print whether each number is divisible by 3. 
     c) Using a for-each loop, print whether each number is divisible by 3.
     
-    2) Consider the ArrayList of Strings ["Anna", "Bob", "Caroline", "Dennis", "Edward", "Frankie"], 
-    Using a for-each loop, add the Strings which end in a vowel to a new ArrayList of Strings.
+    2) Consider the ArrayList of Strings
+    ["Anna", "Bob", "Caroline", "Dennis", "Edward", "Frankie"], 
+    Using a for-each loop, add the Strings which end in a vowel
+    to a new ArrayList of Strings.
 
     */
     }
