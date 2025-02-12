@@ -12,7 +12,7 @@ public class MultiDimArrays
         //  * 
         //  * The syntax is simiar to 1-Dimensional array.
         //  * 
-        //  * <element_type>[][] <array_name> = new <element_type>[<row_length>][<column_length>]; 
+        //  * <element_type>[][] <array_name> = new <element_type>[<number_of_rows>][<number_of_columns>]; 
         //  * int[][] array = new int[3][4]; // this creates an integer array with 3 rows and 4 columns
         //  *                                   0   1   2   3
         //  *                                 ┌────────┬────────┬────────┬────────┐
