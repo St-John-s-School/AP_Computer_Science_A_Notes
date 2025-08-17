@@ -41,7 +41,7 @@ sandwiches as complex, but if you had to explain how to make one
 to someone, wouldn't a list of instructions be an acceptable way? 
 */
 
-public class WhyProgramming
+public class a_WhyProgramming
 {
     public static void main(String[] args)
     {
