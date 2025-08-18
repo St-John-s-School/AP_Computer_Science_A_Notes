@@ -15,6 +15,10 @@ public class i_Updating
         To get the exact quotient, we will need to convert one of the ints to a double.
         How do we do that?
 
+        When you start working on the lab, you should continue working on whiteboards.
+        It might seem unnecessary right now, but as programs get more complex,
+        you'll want somewhere to put your thoughts besides inside your head. 
+
         */
 
     }
