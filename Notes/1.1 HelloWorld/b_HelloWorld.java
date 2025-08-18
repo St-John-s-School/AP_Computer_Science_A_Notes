@@ -1,6 +1,6 @@
 /*
 Your file name needs to be the same as whatever comes after
-public class ... 
+public class {file_name}
 
 To print something, put it inside quotes ("") inside of a print command.
 "print" is the first command (method) we will learn in Java.
