@@ -44,6 +44,9 @@ public class a_Variables
 
         Variables all need to have different names. We can't have two variables with the same name. 
         You can do other things with variables, we will see this later. 
+
+        It's also important to know that variables only change if we use the = (assignment) operator.
+        Otherwise, they will retain their state (data, value). 
         */
     }
 }
