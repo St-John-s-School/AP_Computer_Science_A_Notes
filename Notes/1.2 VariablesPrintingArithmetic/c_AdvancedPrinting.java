@@ -18,11 +18,11 @@ public class c_AdvancedPrinting
         What will happen?
         */
 
-        int a = 4;
-        int b = 3;
-        int sum = a + b;
-        System.out.println("Original sum:" + sum);
-        a = 6
-        System.out.println("New sum:" + sum);
+        // int a = 4;
+        // int b = 3;
+        // int sum = a + b;
+        // System.out.println("Original sum:" + sum);
+        // a = 6
+        // System.out.println("New sum:" + sum);
     }
 }
