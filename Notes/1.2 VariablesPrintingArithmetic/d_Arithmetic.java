@@ -27,5 +27,15 @@ public class d_Arithmetic
         double result = 5.5 + 6.2;
         System.out.println("We can add doubles. The result is: " + result); 
 
+        /*
+        As shown previously, we can also use the assignment operator to change
+        the value of a variable.
+
+        Notice that if we have already declared the variable, we don't need to say
+        the type again. Java remembers what type it is.
+        */
+
+        // sum = 14;
+        // System.out.println("The new value of sum is:" + sum);
     }
 }
