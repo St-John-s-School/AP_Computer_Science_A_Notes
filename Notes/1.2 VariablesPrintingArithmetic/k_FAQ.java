@@ -18,6 +18,10 @@ public class k_FAQ
         
         Q: What will problems on the quiz and test look like?
         A: They'll look a lot like the problems from the Notes or Labs. 
+
+        Q: How do I comment or uncomment code from the Notes? I want to see the output.
+        A: On Mac, you can highlight the code, then press Cmd + /. On Windows, it's
+        Ctrl + /. This comments or uncomments entire blocks of code. 
         */
 
     }
