@@ -1,4 +1,4 @@
-public class i_Updating
+public class j_Practice
     {
     public static void main(String[] args)
         {
