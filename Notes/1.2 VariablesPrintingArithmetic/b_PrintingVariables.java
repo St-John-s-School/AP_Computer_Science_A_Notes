@@ -10,5 +10,8 @@ public class b_PrintingVariables
 
         int age = 27;
         System.out.println(age);
+
+        int sum = 6 + 12;
+        System.out.println(sum);
     }
 }
