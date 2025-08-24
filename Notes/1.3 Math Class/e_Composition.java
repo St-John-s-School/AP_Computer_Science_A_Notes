@@ -25,17 +25,17 @@ public class e_Composition
         System.out.println("Rounded (final) value: " + mystery);  
 
         // Q: What's going on here? 
-        // double x1 = Math.random() * 10;
-        // double y1 = Math.random() * 10;
-        // double x2 = Math.random() * 10;
-        // double y2 = Math.random() * 10;
+        // int x1 = 3;
+        // int y1 = 0;
+        // int x2 = 6;
+        // int y2 = 4;
         
         // double mystery = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
 
         /*
         When reading complex expressions, work from the inside out.
 
-        Q: What does Math.max(Math.abs(-5), Math.abs(3)) evaluate to?
+        Q: What does Math.max(Math.abs(-5), Math.abs(-3)) evaluate to?
 
         Q: While method composition is useful,
         does everything need to be done on one line?

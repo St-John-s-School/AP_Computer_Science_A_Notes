@@ -9,7 +9,7 @@ public class b_Exponents
         Math.pow(base, exponent) raises the base to the given power.
         For example: Math.pow(2, 3) calculates 2^3 = 8
 
-        Math.sqrt(number) finds the square root of a number.
+        Math.sqrt(number) finds the (positive) square root of a number.
         For example: Math.sqrt(16) = 4 because 4 * 4 = 16
         */
         System.out.println("--------------------");
@@ -21,7 +21,7 @@ public class b_Exponents
         System.out.println(base + " raised to the power " + exponent + " = " + result);
 
         // Using Math.sqrt() to find square roots
-        // double number = 25;
+        // int number = 25;
         // double squareRoot = Math.sqrt(number);
         // System.out.println("The square root of " + number + " is " + squareRoot);
 
@@ -38,7 +38,7 @@ public class b_Exponents
         /*
         Q: Is Math.sqrt() really necessary? What can we use instead? 
 
-        Q: What kind of variables do sqrt() and pow() output? 
+        Q: What type of variables do sqrt() and pow() output? 
         */
     }
 }

@@ -12,6 +12,11 @@ public class d_Rounding
         Math.ceil(number) - rounds UP to the nearest integer  
         Math.round(number) - rounds to the NEAREST integer (standard rounding rules)
 
+        These methods are subtly different than (int), which truncates.
+
+        However, the Math class methods basically all return doubles.
+        If we can produce doubles that end in .0, we can cast to int safely. 
+
         */
         System.out.println("--------------------");
 
@@ -35,7 +40,7 @@ public class d_Rounding
         // System.out.println("(int)" + negativeNumber + " = " + (int)negativeNumber);
 
         /*
-        Q: What is the difference between floor() and int()? It's subtle. 
+        Q: What is the difference between floor() and (int)? It's subtle. 
         Q: What do the floor(), ceil(), and round() methods output? 
         */
     }
