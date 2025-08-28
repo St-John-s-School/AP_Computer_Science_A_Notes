@@ -37,7 +37,5 @@ public class f_Chars
     It turns out that the sum (concatenation) of a char
     and a String is a String.
     */
-
-    String a = ""
     }
 }
