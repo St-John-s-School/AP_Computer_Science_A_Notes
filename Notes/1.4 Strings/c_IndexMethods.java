@@ -52,6 +52,14 @@ public class c_IndexMethods
         // " in " + h + " is: " + indexOfInput);
 
         /*
+        What happens when we search for something that's not there?
+        */
+
+        // String i = "gaffe";
+        // int notFound = i.indexOf("z");
+        // System.out.println("Index of 'z' in " + i + ": " + notFound);
+
+        /*
         Q: How could you always find the first character of a String with charAt()?
         */
     }

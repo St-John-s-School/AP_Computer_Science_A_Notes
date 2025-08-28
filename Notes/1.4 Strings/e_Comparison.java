@@ -3,13 +3,14 @@ public class e_Comparison
     /*
     We have a few methods that will help us compare Strings. 
     */
-    
+
     public static void main(String[] args)
     {
     /*
     First, we have StringName.equals(otherString)
 
-    .equals() outputs either True or False, depending on whether the two Strings
+    .equals() outputs either True or False, 
+    depending on whether the two Strings
     are equal to one another.
     */
 
@@ -34,6 +35,7 @@ public class e_Comparison
     */
 
     // String test = "bananas";
-    // System.out.println(test.contains("e"));
+    // System.out.println("Does '" + test + "' contain 'e'? " + test.contains("e"));
+    // System.out.println("Does '" + test + "' contain 'a'? " + test.contains("a"));
     }
 }
