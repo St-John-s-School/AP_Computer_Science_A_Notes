@@ -20,6 +20,18 @@ public class i_Practice
 
     Hint: can we check if the first character is a vowel
     with only one comparison operator? 
+
+    Problem 2:
+    Mr. Gao needs a kidney... 
+
+    Write a program that:
+    0) Declares and initializes ints representing how many kidneys you have
+    and how many Mr. Gao has
+    1) Declares and initializes two booleans representing whether you:
+    have two kidneys and are an organ donor
+    2) If you have two kidneys AND are an organ donor,
+    updates the number of kidney variables correctly
+    (subtract one from you and give one to Mr. Gao)
     */
 
     }
