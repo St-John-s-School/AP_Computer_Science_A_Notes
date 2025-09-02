@@ -15,7 +15,7 @@ else if (another condition)
     // do something else
 }
 
-// only happens every previous condition is false
+// only happens if every previous condition is false
 else
 {
     // do something else
@@ -24,9 +24,12 @@ else
 The computer will do exactly one of the multiple conditional statements.
 
 One way to think about this is if the first if statement is true, then
-neither the else if or else will be true, so they don't happen.
-If the "if" is false, then we check the "else if". If the "else if" is false,
-then we do the "else".
+neither the else if or else will happen.
+If the "if" is false, then we check the "else if".
+If the "else if" is true, we do it.
+If the "else if is false, then we do the else.
+
+Basically, "else if" becomes an "if" when the previous statements are false. 
 
 NOTE: An else if needs a condition. Why? 
 */
