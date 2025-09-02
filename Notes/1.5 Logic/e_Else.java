@@ -3,8 +3,9 @@ public class e_Else
 /*
 What if we want our program to do something
 if something is true, and something else otherwise?
+Currently, nothing happens if our condition is false
 
-We write an if-else statement
+We can write an if-else statement!
 
 if (condition)
 {
@@ -18,6 +19,7 @@ else
 }
 
 NOTE: An else doesn't need a condition. Why? 
+Because it always happens when the if condition is false.
 */
     public static void main(String[] args)
     {
@@ -33,10 +35,6 @@ NOTE: An else doesn't need a condition. Why?
         }
         System.out.println("\n---------------------");
 
-        /*
-        Q: Could we write the above code without an else?
-        */
-
         // System.out.println("---------------------\n");
         // int number = 8;
         // if (number % 2 == 0)
@@ -49,6 +47,9 @@ NOTE: An else doesn't need a condition. Why?
         // }   
         // System.out.println("\n---------------------");
  
-
+        /*
+        Q: Could we write the above code without an else?
+        Q: Why might it be better to use else than two ifs?
+        */
     }
 }

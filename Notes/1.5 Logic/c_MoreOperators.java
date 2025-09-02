@@ -14,7 +14,7 @@ It outputs false otherwise.
 
 || "or" outputs true if at least one of the two inputs
 are true.
-It outputs false otherwise.
+It outputs false if both are false.
 
 ! outputs true if the input is false.
 And false otherwise.
@@ -45,4 +45,11 @@ And false otherwise.
     // System.out.println("\n---------------------");
 
     }
+    /*
+    Q: What does true && false evaluate to?
+        
+    Q: Consider the boolean b.
+    Regardless of what b equals,
+    what is b || !b?
+    */
 }

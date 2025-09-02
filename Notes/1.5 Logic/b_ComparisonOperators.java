@@ -3,7 +3,7 @@ public class b_ComparisonOperators
 /*
 We've learned that booleans are used to represent
 the answers to yes or no questions. There's an example
-on the previous file where we determine if a number is even.
+in the previous file where we determine if a number is even.
 The problem is that, currently, we're the one determining
 if 8 is even or not. We need a way for our computer to 
 determine whether something is true or false!
@@ -19,7 +19,8 @@ Consider the following operators:
 These are all operators that will output true, or false
 
 NOTE: The output of these operators is always a boolean.
-NOTE: We call statements that output true or false "logical"
+NOTE: Statements that output T/F are "logical statements"
+NOTE: "==" != "="
 */
     public static void main(String[] args)
     {
@@ -49,5 +50,12 @@ NOTE: We call statements that output true or false "logical"
     /*
     Q: Can we declare and initialize a boolean to represent
     whether a String starts with a "j"?
+    */
+
+    /*
+    Q: Can we write logical statements that calculate the following:
+    - Is "banana" longer than "apple?"
+    - Is 12 divisible by 4? 
+    - Is 8 + 4 less or equal to 13? 
     */
 }

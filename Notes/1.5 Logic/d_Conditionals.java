@@ -44,4 +44,9 @@ if something else (the condition) is true.
         //     }
         // System.out.println("\n---------------------");
     }
+    /*
+    Q: Consider the examples above,
+    What happens if you are younger than 18?
+    What happens if you have a short password?
+    */
 }
