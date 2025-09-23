@@ -70,5 +70,7 @@ public class e_WhyWriteMethods
         {
             System.out.println("square");
         } 
+
+        in.close();
     }
 }
