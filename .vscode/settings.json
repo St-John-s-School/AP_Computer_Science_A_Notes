@@ -1,0 +1,9 @@
+{
+  "github.copilot.enable": false,
+  "github.copilot.editor.enableAutoCompletions": false,
+  "github.copilot.editor.enableCodeActions": false,
+  "github.copilot.chat.enable": false,
+  "extensions.ignoreRecommendations": true,
+  "chat.disableAIFeatures": true,
+  "workbench.extensions.ignoreRecommendations": true
+}
