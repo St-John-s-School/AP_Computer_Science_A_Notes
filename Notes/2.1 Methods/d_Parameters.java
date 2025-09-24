@@ -43,7 +43,7 @@ public static double calculateGrade(double q, double t, boolean didHW) {
         boolean hw = true;
         
         double grade = calculateGrade(quizAverage, testAverage, hw);
-        System.out.println("Final grade: " + finalGrade);
+        System.out.println("Final grade: " + grade);
 
         /*
         Q: What happpens if you call calculateGrade without 

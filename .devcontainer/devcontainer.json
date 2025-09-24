@@ -1,0 +1,52 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "17"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "redhat.java",
+        "formulahendry.code-runner",
+        "-GitHub.copilot-chat",
+        "-GitHub.copilot",
+        "-vscjava.migrate-java-to-azure",
+        "-vscjava.vscode-java-upgrade",
+        "-vscjava.vscode-java-pack"
+      ],
+      "settings": {
+        "github.copilot.enable": {
+          "*": false,
+          "plaintext": false,
+          "markdown": false,
+          "scminput": false,
+          "java": false,
+          "javascript": false,
+          "typescript": false,
+          "python": false,
+          "html": false,
+          "css": false,
+          "json": false,
+          "xml": false
+        },
+        "github.copilot.editor.enableAutoCompletions": false,
+        "github.copilot.editor.enableCodeActions": false,
+        "github.copilot.chat.enable": false,
+        "github.copilot.advanced": {},
+        "github.copilot.selectedCompletionModel": "",
+        "github.copilot.chat.welcomeMessage": "disabled",
+        "workbench.statusBar.visible": true,
+        "github.copilot.editor.showStatusBarItem": false,
+        "extensions.ignoreRecommendations": true,
+        "extensions.autoCheckUpdates": false,
+        "extensions.autoUpdate": false,
+        "workbench.extensions.ignoreRecommendations": true,
+        "code-runner.runInTerminal": true,
+        "code-runner.saveFileBeforeRun": true,
+        "code-runner.clearPreviousOutput": true
+      }
+    }
+  }
+}
