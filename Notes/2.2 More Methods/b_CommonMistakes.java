@@ -1,4 +1,4 @@
-public class a_Review
+public class b_CommonMistakes
 {
     public static boolean isEven(int a)
     {
@@ -6,6 +6,7 @@ public class a_Review
         {
             return true;
         }
+        
     }
 
     public static void main(String[] args)
@@ -14,7 +15,7 @@ public class a_Review
       Let's review some common mistakes made when writing methods
       The first is related to returning values. 
 
-      Consider the method above. What is the issue if a is even? 
+      Consider the method above. What is the issue if a is odd? 
 
       What are we promising our computer that our method will ALWAYS return?
       */
@@ -32,11 +33,11 @@ public class a_Review
     */
 
 
-    // System.out.println("---------------------\n");
-    // int num = 5;
-    // cube(num);
-    // System.out.prinlnt(c);
-    // System.out.println("\n---------------------");        
+    System.out.println("---------------------\n");
+    int num = 5;
+    cube(num);
+    System.out.prinlnt(c);
+    System.out.println("\n---------------------");        
 
 
     /*
@@ -47,11 +48,11 @@ public class a_Review
     */
     }
 
-    public static int cube(int b)
-    {
-        int c = b * b * b;
-        return c;
-    }
+    // public static int cube(int b)
+    // {
+    //     int c = b * b * b;
+    //     return c;
+    // }
 
     public static String printGrade(int grade)
     {

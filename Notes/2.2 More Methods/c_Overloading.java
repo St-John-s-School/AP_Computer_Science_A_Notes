@@ -1,4 +1,4 @@
-public class a_Review
+public class c_Overloading
 {
 /*
 The only real "new" thing we will discuss
@@ -28,7 +28,7 @@ based on the values passed in as parameters.
 
         System.out.println(add(14, 15));
 
-        // System.out.println(add("14", "15"));
+        System.out.println(add("14", "15"));
 
         System.out.println("\n---------------------");                   
     }
