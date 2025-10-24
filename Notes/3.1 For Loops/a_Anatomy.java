@@ -31,7 +31,7 @@ public class a_Anatomy {
     Usually, it increments i by some value. 
 
     <body> is the code that the loop will repeatedly run. 
-    After the body is over, we will do the <test>, and then <update>. 
+    After the body is over, we will do the <update>. 
 
     Q: What does the loop below do?
 
