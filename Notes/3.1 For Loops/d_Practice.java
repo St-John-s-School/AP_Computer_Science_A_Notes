@@ -1,4 +1,4 @@
-public class e_Practice
+public class d_Practice
 {
     public static void main(String[] args)
     {
@@ -6,8 +6,7 @@ public class e_Practice
     Working with a partner on a whiteboard, write some programs that use loops!
 
     Problem 0: 
-    Write a program that counts the number 
-    of "o"s in a String s without using .replace().
+    Write a program that calculates the sum of the first 10 perfect squares. 
 
     Problem 1:
     Write a program that reverses a String and stores
