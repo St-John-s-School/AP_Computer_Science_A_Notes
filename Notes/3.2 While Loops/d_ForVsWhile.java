@@ -22,7 +22,7 @@ public class d_ForVsWhile
     // int prod = 0;
     // for (int a = 1; a <= 10; a++)
     // {
-    //     prod += a;
+    //     prod *= a;
     // }
     // System.out.println(prod);
   }
