@@ -3,7 +3,7 @@ public class e_Practice
     public static void main(String[] args)
     {
     /*
-    Working with a partner on a whiteboard, write some programs that use while loops!
+    Working with a partner on a whiteboard, write some programs that use ArrayLists
 
     Problem 0:
     We will do Problem 0 as a class
