@@ -48,15 +48,15 @@ public class c_Methods
     // System.out.println(names);
 
     /*
-    Next, we have .length().
+    Next, we have .size().
 
     This is just like .length for Arrays, but now it's a method
-    so its .length(). It returns the length of the ArrayList.
+    so its .size(). It returns the length of the ArrayList.
 
     Remember this is one more than the index of the last element!
     */
 
-    // int l = names.length();
+    // int l = names.size();
     // System.out.println("The length of the ArrayList is: " + l);
 
     /*
