@@ -16,11 +16,11 @@ public class d_Practice
     HINT: String word = input.next(); 
 
     Problem 1: 
-    Take a look at the grades.txt file. 
+    Take a look at the numbers.txt file. 
     Find the:
-    highest score
-    lowest score
-    average score
+    largest number
+    smallest number
+    average number
     */
 
     }
