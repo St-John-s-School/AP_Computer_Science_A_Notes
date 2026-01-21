@@ -16,7 +16,7 @@ public class d_Practice
     HINT: String word = input.next(); 
 
     Problem 1: 
-    Take a look at the numbers.txt file. 
+    Take a look at the more_numbers.txt file. 
     Find the:
     largest number
     smallest number
