@@ -22,7 +22,7 @@ public class c_ReadingFiles
     nextLine(): reads the entire next line
     nextInt(): reads the next integer
     nextDouble(): reads the next double
-    nextBoolean(): reads the next double
+    nextBoolean(): reads the next Boolean
 
     It also uses a few NEW Scanner methods.
 
