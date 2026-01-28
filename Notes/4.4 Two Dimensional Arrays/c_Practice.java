@@ -6,11 +6,10 @@ public class c_Practice
     {
     /*
 
-    Working with a partner on a whiteboard, write some programs that use 2D Arrays
+    We will do Problem 0 as a class:
 
     Problem 0:
     Can you make a 10 by 10 array of the first 100 numbers?
-    HINT: 10 * i + j
 
     Problem 1: 
     Can you make an ArrayList of Strings representing your interpretation
