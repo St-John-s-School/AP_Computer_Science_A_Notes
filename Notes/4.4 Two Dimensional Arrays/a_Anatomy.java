@@ -25,7 +25,7 @@ public class a_Anatomy
 
         <element_type>[][] <array_name> = new <element_type>[<num_rows>][<num_cols>]; 
         int[][] array = new int[3][4]; // this creates an integer array with 3 rows and 4 columns
-                                        0   1   2   3
+                                              0       1        2        3
                                          ┌────────┬────────┬────────┬────────┐
                                        0 │ [0][0] │ [0][1] │ [0][2] │ [0][3] │
                                          ├────────┼────────┼────────┼────────┤
@@ -43,22 +43,6 @@ public class a_Anatomy
         
         */
 
-        int[][] array = {{1, 2, 3},
-                         {4, 5, 6},
-                         {7, 8, 9},
-                         {10, 11, 12}};
-
-        System.out.println("Rows:" + array.length);
-        System.out.println("Columns:" + array[0].length);
-        
-        for(int i = 0; i < array.length; i++)
-        {
-            for(int j = 0; j < array[i].length; j++)
-            {
-                System.out.print(array[i][j] + " ");
-            }
-            System.out.println();
-        }
     }
 
     /*
