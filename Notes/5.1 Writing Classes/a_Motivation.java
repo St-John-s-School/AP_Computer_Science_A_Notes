@@ -18,6 +18,10 @@ public class a_Motivation
         As an example, String stores a sequence of characters (data),
         and has methods like .length() and .substring() (methods).
 
+        Objects also tend to represent concrete ideas in our programs.
+        Think about Cards, or Players, or ArrayLists. These are things
+        that are concrete and we might imagine actually need to be represented. 
+
         Review Q: Why have we used Objects?
 
         Answer: We've needed to use Objects when we've needed to bundle together
@@ -46,6 +50,8 @@ public class a_Motivation
 
         /*
         The blueprint for an Object is called a Class.
+
+        Each separate .java file is a Class. 
 
         Once we write the Class, we can create as many Objects
         from it as we want. 
