@@ -2,7 +2,10 @@ public class b_Anatomy
 {
     /*
     A Class is a blueprint for Objects.
-    If we write code for a Class, we can make Objects of that type. 
+    If we write code for in a Class, we can make Objects of that Class,
+    and all the code that goes in a Class file will be code that Objects 
+    of that Class will have.
+
     Every Class has three parts:
 
     1) Field Variables: these are the variables an Object stores. 
@@ -85,6 +88,17 @@ public class b_Anatomy
 
     Static methods are methods that exist independently of a particular Object.
     The methods we will write in classes are part of an Object. Thus, they are NOT static.
+
+    An example of a static method is Math.sqrt(x). Did you need to call this on 
+    an Object? Or did you just use it on its own? Another example is println().
+
+    An example of a non-static method is .add() or .size() for ArrayLists.
+    Can you just call .add() or .size() without an ArrayList Object before the period?
+    If you don't, would your computer know which ArrayList Object to add an element to? 
+
+    .add(), .size(), .length() and .substring() for Strings are all examples of methods
+    that NEED to be called on an Object. Thus, they are not-static. The code for these 
+    methods will go in the Class file for those Objects. 
 
     A method for a BankAccount class might look like this:
 
