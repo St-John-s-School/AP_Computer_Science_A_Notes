@@ -42,7 +42,6 @@ public class a_Recap
         Methods:         depositMoney(), withdrawMoney(), getBalance(), 
                          setBalance(), transferToOtherAccount(), etc.
         */
-        */
     }
 
 }

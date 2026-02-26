@@ -14,7 +14,7 @@ public class b_Reference
         x = x * 2;
     }
 
-    And this code in main:
+    And this code that calls it:
 
     int a = 5;
     doubleIt(a);
@@ -22,11 +22,6 @@ public class b_Reference
 
     Q: What does this print? 10 or 5?
     */
-
-    public static void doubleIt(int x)
-    {
-        x = x * 2;
-    }
 
     /*
     When we pass a primitive type (int, double, boolean, etc.)
@@ -43,7 +38,7 @@ public class b_Reference
     It holds a REFERENCE (an address) that points to where the Object lives in memory.
 
     Think back to when we tried to print Arrays and got something like:
-    I@19518513591. That long String of characters is the address of the data 
+    I@1951851. That long String of characters is the address of the data 
     in your computer's memory. 
 
     When we pass an Object to a method, Java copies the REFERENCE, not the Object.
@@ -78,13 +73,14 @@ public class b_Reference
     you might accidentally modify it anyway.
     */
 
+    /*
+
     public static void printSorted(ArrayList<String> names)
     {
         Collections.sort(names);
         System.out.println("Sorted: " + names);
     }
 
-    /*
     This method looks fine. It sorts a list and prints it. 
     But here's the problem: Collections.sort() is a method
     that accepts the Object "names" as a parameter.
