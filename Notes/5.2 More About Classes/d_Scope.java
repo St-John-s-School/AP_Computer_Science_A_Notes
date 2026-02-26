@@ -17,8 +17,6 @@ public class d_Scope
     */
 
     /*
-    Shadowing:
-
     Sometimes we get lazy and give variables the same name.
     It turns out this usually doesn't work, except in one circumstance.
 
