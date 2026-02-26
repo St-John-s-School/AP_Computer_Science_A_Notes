@@ -8,8 +8,8 @@ public class c_Static
     not any one Object? 
 
     Consider a Student Class. Every Student has a name and a grade,
-    but there might be data we want a Student object to have
-    that should be shared by all the Student objects.
+    but there might be data that should be shared by all the Student objects.
+    Basically, we want a variable that doesn't vary between each Student. 
 
     For example, the school they go to, or the total number of students.
     This data is not relevant to any particular student, but rather
@@ -62,5 +62,19 @@ public class c_Static
         // Changing a static variable affects ALL objects.
         // Student.setSchoolName("Kinkaid");
         // System.out.println("School: " + Student.getSchoolName());
+
+        /*
+        Final note for this file, 
+        you may see some variables with a final keyword.
+
+        The keyword final makes a variable permanent.
+
+        So, if we have:
+
+        public static final double MAX_GPA = 100.0;
+
+        the value of the MAX_GPA variable CANNOT change. 
+        It's a constant! 
+        */
     }
 }

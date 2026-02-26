@@ -42,7 +42,7 @@ public class b_Reference
     in your computer's memory. 
 
     When we pass an Object to a method, Java copies the REFERENCE, not the Object.
-    Then, if our method goes to the copy of the reference location, where does it go?
+    Is a copy of a reference different than the original reference? 
 
     So, any changes a method makes to an Object will happen to the original. 
     */
@@ -83,7 +83,7 @@ public class b_Reference
 
     This method looks fine. It sorts a list and prints it. 
     But here's the problem: Collections.sort() is a method
-    that accepts the Object "names" as a parameter.
+    that will change the value of the original list, names.
 
     Since "names" is a reference to the original list,
     the original list is now sorted too. That might not be what we wanted.
@@ -94,6 +94,8 @@ public class b_Reference
     Q: How do we fix this issue?
 
     We make a copy of the original and use that copy as the parameter.
+
+    ArrayList<String> copy = new ArrayList<>(names);
 
     This idea of protecting the original by making a copy is one
     of the most important habits in programming. Generally,

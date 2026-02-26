@@ -10,9 +10,9 @@ public class a_Recap
            we can create as many Objects from it as we want.
 
         2) Every Class has three parts:
-           1) Field variables: the data each Object stores
-           2) Constructor(s): create the Object and set initial values
-           3) Other methods: gets, sets, other behaviors
+           - Field variables: the data each Object stores
+           - Constructor(s): create the Object and set initial values
+           - Other methods: gets, sets, other behaviors
 
         3) Field variables should be private (encapsulation).
            We don't want outside code reaching in and changing our data directly.
@@ -25,7 +25,7 @@ public class a_Recap
         5) Methods written inside a Class do NOT have the keyword static.
            They belong to an Object and can directly use the field variables.
            We call them using dot notation: object.methodName()
-           Every Object has its own copy of each method.
+           Every non static method uses its own Object's field variables. 
 
         Finally, one thing we didn't talk about but needs to be 
         talked about again is the fact that:
