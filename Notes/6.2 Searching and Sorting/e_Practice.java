@@ -14,10 +14,10 @@ public class e_Practice
     int[] arr = {4, 7, 12, 19, 25, 33, 41, 58, 63};
     int target = 33;
 
-    Problem 2:
+    Problem 1:
     Rewrite linear search to work with Strings instead of ints.
 
-    Problem 3:
+    Problem 2:
     Rewrite selection sort to sort the array in descending order. 
     */
 
