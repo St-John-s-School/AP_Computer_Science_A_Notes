@@ -3,23 +3,21 @@ public class a_Motivation
     public static void main(String[] args)
     {
     /*
-    Think about a deck of cards that's been shuffled randomly.
+    Think about a list of names. You want to know if a certain name
+    is in the list.
 
-    If someone asks you to find the 7 of Spades, what do you do?
-    You probably flip through the cards one at a time until you find it.
-    That works, but it could take a while.
+    How would you do that? You might write a SEARCH
+    algorithm.
 
-    Now imagine someone hands you a deck that's already been sorted.
-    Could you find the 7 of Spades faster? Definitely.
-    You could open the deck to the middle, see where you are,
-    and immediately eliminate half the cards.
+    What if the list was SORTED alphabetically? Would you be able
+    to find if the name was in the list more quickly? 
 
     These two ideas, SEARCHING and SORTING, are some of the most
     fundamental problems in all of computer science.
 
-    Almost every application you use relies on them:
+    Almost every computer program you use relies on them:
     - Google searches through billions of web pages
-    - Spotify sorts your playlist by date added or by artist
+    - Spotify sorts playlists based on how much you like them
     - Your phone searches through your contacts when you type a name
 
     Today, we'll learn how these algorithms work,
